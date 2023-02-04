@@ -10,8 +10,8 @@ const Sidebar = ({ children, closeSidebar }) => {
     <div
       className={
         closeSidebar
-          ? '-translate-x-[5rem] ease-out duration-500'
-          : 'flex ease-in duration-500'
+          ? 'flex w-[calc(100%+5rem)] -translate-x-[5rem] ease-out duration-500'
+          : 'flex w-full translate-x-0 ease-in duration-500'
       }
     >
       <div
