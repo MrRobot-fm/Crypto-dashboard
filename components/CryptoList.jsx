@@ -4,7 +4,6 @@ import { MdOutlineHttp } from 'react-icons/md';
 
 const CryptoList = ({ searchWord }) => {
   const [listOfCoins, setListOfCoins] = useState([]);
-
   const [fill, setFill] = useState([]);
 
   useEffect(() => {
@@ -43,7 +42,6 @@ const CryptoList = ({ searchWord }) => {
           <span className="hidden md:grid">Symbol</span>
           <span className="hidden sm:grid">1w/change</span>
         </div>
-
         <ul>
           {fill.map((coin, id) => (
             <li

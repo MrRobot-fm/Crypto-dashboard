@@ -34,11 +34,10 @@ const TopCards = () => {
           {global ? (
             <p className="text-2xl font-bold">
               $
-              {new Intl.NumberFormat('en-IN')
-                .format(
-                  Object.values(global?.total_volume).reduce((a, b) => a + b, 0)
-                )
-                .slice(0, -7)}
+              {new Intl.NumberFormat('de-DE').format(
+                Object.values(global?.total_volume)
+                .reduce((a, b) => a + b, 0)
+              )}
             </p>
           ) : (
             <Spinner />
