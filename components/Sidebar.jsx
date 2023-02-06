@@ -3,7 +3,7 @@ import { RxSketchLogo, RxDashboard } from 'react-icons/rx';
 import { GrSearch } from 'react-icons/gr';
 import { BiNews } from 'react-icons/bi';
 
-const Sidebar = ({ children, closeSidebar, setCloseSidebar }) => {
+const Sidebar = ({ children, closeSidebar, handleResize }) => {
   return (
     <div
       className={
@@ -23,17 +23,17 @@ const Sidebar = ({ children, closeSidebar, setCloseSidebar }) => {
           </div>
 
           <span className="border-b-[1px] border-gray-200 w-full p-2"></span>
-          <Link href="/" onClick={() => setCloseSidebar(true)}>
+          <Link href="/" onClick={handleResize}>
             <div className="bg-gray-100 hover:bg-gray-200 my-4 p-3 rounded-lg inline-block ">
               <RxDashboard size={20} />
             </div>
           </Link>
-          <Link href="/search-crypto" onClick={() => setCloseSidebar(true)}>
+          <Link href="/search-crypto" onClick={handleResize}>
             <div className="bg-gray-100 hover:bg-gray-200 my-4 p-3 rounded-lg inline-block ">
               <GrSearch size={20} />
             </div>
           </Link>
-          <Link href="/news" onClick={() => setCloseSidebar(true)}>
+          <Link href="/news" onClick={handleResize}>
             <div className="bg-gray-100 hover:bg-gray-200 my-4 p-3 rounded-lg inline-block ">
               <BiNews size={20} />
             </div>
