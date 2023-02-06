@@ -1,7 +1,5 @@
 import Link from 'next/link';
 import { RxSketchLogo, RxDashboard } from 'react-icons/rx';
-import { HiOutlineShoppingBag } from 'react-icons/hi';
-import { FiSettings } from 'react-icons/fi';
 import { GrSearch } from 'react-icons/gr';
 import { BiNews } from 'react-icons/bi';
 

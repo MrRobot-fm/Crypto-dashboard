@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { HiMenuAlt2 } from 'react-icons/hi';
 
 const Header = ({ handleSidebar }) => {

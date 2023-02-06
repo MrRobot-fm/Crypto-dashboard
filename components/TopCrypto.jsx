@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { getCoinData } from '@/utils/clientApi';
 
-const RecentOrders = () => {
+const TopCrypto = () => {
   const [coins, setCoins] = useState(null);
 
   useEffect(() => {
@@ -36,4 +36,4 @@ const RecentOrders = () => {
   );
 };
 
-export default RecentOrders;
+export default TopCrypto;

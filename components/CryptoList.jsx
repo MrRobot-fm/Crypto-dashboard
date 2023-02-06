@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getCoinData } from '@/utils/clientApi';
 import { MdOutlineHttp } from 'react-icons/md';
-import { SiAiohttp } from 'react-icons/si';
 
 const CryptoList = ({ searchWord }) => {
   const [listOfCoins, setListOfCoins] = useState([]);
