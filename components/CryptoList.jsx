@@ -36,8 +36,8 @@ const CryptoList = ({ searchWord }) => {
   };
 
   return (
-    <div className="p-4 ">
-      <div className="w-full m-auto p-4 border rounded-lg bg-white overflow-y-auto">
+    <div className="p-4 flex">
+      <div className="w-full m-auto p-4 border rounded-lg bg-white overflow-y-auto ">
         <div className="my-3 p-2 grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 items-center justify-between cursor-pointer">
           <span>Name</span>
           <span className="sm:text-left text-right">Price</span>

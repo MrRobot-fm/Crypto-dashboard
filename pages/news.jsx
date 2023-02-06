@@ -27,7 +27,7 @@ const News = ({ handleSidebar }) => {
           <div className="my-3 p-2 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-center justify-between cursor-pointer">
             {news?.map((news, id) => (
               <a key={id} href={news.link} target="_blank">
-                <div className="w-[85%] bg-gray-50 hover:bg-gray-100 rounded-lg my-3 p-4 ">
+                <div className="sm:w-[85%] w-full bg-gray-50 hover:bg-gray-100 rounded-lg my-3 p-4 ">
                   <img
                     src={news.imgURL}
                     alt="img"

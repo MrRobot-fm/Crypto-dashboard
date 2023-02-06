@@ -1,15 +1,10 @@
 import Head from 'next/head';
-
 import Header from '@/components/Header';
 import TopCards from '@/components/TopCards';
 import BarChart from '@/components/BarChart';
 import RecentOrders from '@/components/RecentOrders';
-import axios from 'axios';
-import { useState, useEffect } from 'react';
-import { getCoinData } from '@/utils/clientApi';
-import { getGlobal } from '@/utils/clientApi';
 
-export default function Home({ setCloseSidebar, handleSidebar }) {
+export default function Home({ handleSidebar }) {
   return (
     <>
       <Head>
@@ -18,7 +13,7 @@ export default function Home({ setCloseSidebar, handleSidebar }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-gray-100 min-h-screen">
+      <main className="bg-gray-100 min-h-screen ">
         <Header handleSidebar={handleSidebar} />
         <TopCards />
         <div className="p-4 grid md:grid-cols-3 grid-cols-1 gap-4">
