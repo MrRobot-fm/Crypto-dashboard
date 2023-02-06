@@ -11,7 +11,7 @@ const Customers = ({ handleSidebar }) => {
   };
 
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 min-h-screen ">
       <div className="flex flex-row-reverse sm:justify-between justify-center p-4 gap-4">
         <h2 className="sm:block hidden font-semibold text-lg">Search Crypto</h2>
         <div className="relative flex items-center gap-4">

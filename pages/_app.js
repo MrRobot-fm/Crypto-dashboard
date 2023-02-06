@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Sidebar closeSidebar={closeSidebar}>
+      <Sidebar closeSidebar={closeSidebar} setCloseSidebar={setCloseSidebar}>
         <Component
           {...pageProps}
           setCloseSidebar={setCloseSidebar}
