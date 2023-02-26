@@ -1,38 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crypto Dashboard 🪙
+#### Crypto dashboard is a web app that was developed with the intention of providing information about the world of cryptocurrencies.
 
-## Getting Started
+### 💥 Try it:  [Crypto Dashboard](https://crypto-dashboard-fm.vercel.app/)
 
-First, run the development server:
 
-```bash
+![Image text](https://user-images.githubusercontent.com/90281132/221411833-81cb0c37-487d-4df3-b817-f03d308c3117.png)
+
+
+## ❓ Why
+This project was created for emprove my skills in Next JS.
+
+## 💡 How it works
+In the main dashboard you can find information about the top 10 coins with attached graph and more general information. On the site there is a section where we can search for our favorite coin and see information such as the price and the change in a week. There is also a section where you can view the latest news on the world of cryptocurrency.
+
+## 💻 Languages
+* Next JS
+
+## 📚 Libraries
+* Axios
+* Tailwind CSS
+* React Icons
+
+## 🌐 External Services
+* [CoinGeko](https://www.coingecko.com/en/api/documentation)
+
+
+## 💾 Installation
+
+### 1 - Clone the repository
+git clone https://github.com/MrRobot-fm/Crypto-dashboard.git
+
+### 2 - Install the dependencies
+npm install
+
+### 3 - Open in the browser
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📧 Contact Me
+* Any questions? Send me an e-mail here: federicomiglioredev@gmail.com
+* You can find my Linkedin profile here: https://www.linkedin.com/in/federicomigliore/
